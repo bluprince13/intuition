@@ -1,0 +1,11 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {english}
+\beamer@sectionintoc {1}{Introduction}{2}{0}{1}
+\beamer@subsectionintoc {1}{1}{Context}{3}{0}{1}
+\beamer@sectionintoc {2}{Why is an intuitive understanding still important?}{4}{0}{2}
+\beamer@subsectionintoc {2}{1}{How is progress achieved?}{5}{0}{2}
+\beamer@subsectionintoc {2}{2}{Knowledge vs. Intuition}{6}{0}{2}
+\beamer@sectionintoc {3}{How can we enable it?}{8}{0}{3}
+\beamer@subsectionintoc {3}{1}{From knowedge transfer to intuition transfer}{9}{0}{3}
+\beamer@subsectionintoc {3}{2}{Is it feasible?}{15}{0}{3}
+\beamer@sectionintoc {4}{Conclusion}{15}{0}{4}
