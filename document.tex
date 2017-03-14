@@ -1,5 +1,9 @@
 \documentclass{beamer}
 
+\usepackage{caption}
+\captionsetup[figure]{labelformat=empty}
+
+
 %\begin{columns}[T]
 %	\begin{column}{.5\textwidth}
 %	\end{column}
@@ -14,7 +18,8 @@
   \usecolortheme{default} % or try albatross, beaver, crane, ...
   \usefonttheme{default}  % or try serif, structurebold, ...
   \setbeamertemplate{navigation symbols}{}
-  \setbeamertemplate{caption}[numbered]
+  \setbeamertemplate{caption}[]
+  \setbeamertemplate{footline}{}
 } 
 
 % ---------------------------------------------------------------------------
@@ -32,13 +37,13 @@
 
 \newcommand<>{\credit}[1]{\par\hfill \tiny \itshape \href{#1}{Source}}
 
-\AtBeginSubsection[]
-{
-	\begin{frame}<beamer>
-		\frametitle{Plan}
-		\tableofcontents[currentsubsection]
-	\end{frame}
-}
+%\AtBeginSection[]
+%{
+%	\begin{frame}<beamer>
+%		\frametitle{Plan}
+%		\tableofcontents[currentsection]
+%	\end{frame}
+%}
 
 % ---------------------------------------------------------------------------
 % REFERENCING PACKAGE
@@ -108,34 +113,34 @@
 %=====================================================================
 \section{Introduction}
 %--------------------------------------------------------------------------------------------
-\begin{frame}{About me}
-	\begin{columns}[T]
-		\begin{column}{.5\textwidth}
-			\begin{itemize}[<+->]
-				\item Aeroacoustics Engineer
-				\item Data analysis and visualisation
-			\end{itemize}
-		\end{column}
-		\begin{column}{.5\textwidth}
-			\begin{figure}
-				\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{images/programmer.jpg}
-				\credit{http://media02.hongkiat.com/programming-myth/programmer.jpg}
-			\end{figure}
-		\end{column}
-	\end{columns}
-\end{frame}
-\begin{frame}{Some of us are dependent on intuition!}
-	\begin{figure}
-		\includegraphics[width=\linewidth,height=0.7\textheight,keepaspectratio]{images/myprofile.png}
-	\end{figure}
-\end{frame}
-\begin{frame}{Context}
+%\begin{frame}{Context}
+%	\begin{columns}[T]
+%		\begin{column}{.5\textwidth}
+%			\begin{itemize}[<+->]
+%				\item Aeroacoustics Engineer
+%				\item Data analysis and visualisation
+%			\end{itemize}
+%		\end{column}
+%		\begin{column}{.5\textwidth}
+%			\begin{figure}
+%				\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{images/programmer.jpg}
+%				\credit{http://media02.hongkiat.com/programming-myth/programmer.jpg}
+%			\end{figure}
+%		\end{column}
+%	\end{columns}
+%\end{frame}
+%\begin{frame}{Context}
+%	\begin{figure}
+%		\includegraphics[width=\linewidth,height=0.7\textheight,keepaspectratio]{images/myprofile.png}
+%	\end{figure}
+%\end{frame}
+\begin{frame}{Introduction}
 %				\item Our work gets more and more complex day by day
 %				\item Today, we don't have to wait for results thanks to technology
 %				\item Is it worth setting aside time to master our subject, or should we just get on with the job?
 			\begin{figure}
 				\includegraphics[width=\linewidth,height=0.7\textheight,keepaspectratio]{images/drawing.jpg}
-				\caption{In the past, the slow pace of work forced us to think}
+				\caption{In the past, the slow pace of work forced us to develop an intuition}
 				\credit{https://sourceable.net/wp-content/uploads/2014/01/engineer-on-drawing-board.jpg}
 			\end{figure}
 \end{frame}
@@ -146,22 +151,19 @@
 %--------------------------------------------------------------------------------------------
 \begin{frame}{Intuition}
 	\begin{definition}
-		The Oxford Dictionary defines \alert{intuitive}  as using or based on what one feels to be true even without conscious reasoning.
+		The ability to understand something \alert{instinctively}, without the need for conscious reasoning.
 	\end{definition}
 \end{frame}
 \begin{frame}{Example}
 	\begin{figure}
-		\includegraphics[width=\linewidth,height=0.7\textheight,keepaspectratio]{images/driving.jpg}
-		\caption{Driving}
-		\label{fig_driving}
-		\credit{http://combiboilersleeds.com/keywords/driving-1.html}
+		\includegraphics[width=\linewidth,height=0.7\textheight,keepaspectratio]{images/proposal.jpg}
+		\credit{http://engaged.robbinsbrothers.com/wp-content/uploads/2014/01/propose-live-on-tv.jpeg?7f685f}
 	\end{figure}	
 \end{frame}
 \begin{frame}{Example}
 	\begin{figure}
-		\includegraphics[width=\linewidth,height=0.7\textheight,keepaspectratio]{images/proposal.jpg}
-		\caption{Deciding whom to marry}
-		\credit{http://engaged.robbinsbrothers.com/wp-content/uploads/2014/01/propose-live-on-tv.jpeg?7f685f}
+		\includegraphics[width=\linewidth,height=0.7\textheight,keepaspectratio]{images/driving.jpg}
+		\credit{http://combiboilersleeds.com/keywords/driving-1.html}
 	\end{figure}	
 \end{frame}
 \begin{frame}{Example}
@@ -176,36 +178,26 @@
 %--------------------------------------------------------------------------------------------
 \subsection{How is intuition helpful?}
 %--------------------------------------------------------------------------------------------
-\begin{frame}{Deal with complexity}
-	\begin{columns}[T]
-		\begin{column}{.5\textwidth}
-			\begin{itemize}{}
-				 \item{Instinctively understand what information is unimportant \parencite{gert}}
-			\end{itemize}
-		\end{column}
-		\begin{column}{.5\textwidth}
+\begin{frame}{Deal with complexity} 
 			\begin{figure}
 				\includegraphics[width=\linewidth,height=0.7\textheight,keepaspectratio]{images/information.jpg}
-				\caption{Machines can't do what we can, at least not yet!}
+				\caption{Instinctively understand what information is unimportant \parencite{gert}}
 				\credit{http://thebrieflab.com/wp-content/uploads/2016/12/Information_overload-e1481756393396.jpeg}
 			\end{figure}
-		\end{column}
-	\end{columns}
 \end{frame}
 \begin{frame}{High quality decisions in very little time}
 	\begin{columns}[T]
 		\begin{column}{.5\textwidth}
 			\begin{block}{}
-						"From a managerial perspective, the speed of
+						\textit{"From a managerial perspective, the speed of
 						intuiting is not only taken for granted but is
 						often seen as a primary motivator for developing
-						and employing intuition at work \parencite{intuition}."
+						and employing intuition at work"} \parencite{intuition}.
 			\end{block}
 		\end{column}
 		\begin{column}{.5\textwidth}
 			\begin{figure}
 				\includegraphics[width=\linewidth,height=0.7\textheight,keepaspectratio]{images/brain.png}
-				\caption{Intuition is fast!}
 				\credit{http://mea.com.au/upload/Blog/Brain_Faster.png}
 			\end{figure}
 		\end{column}
@@ -215,32 +207,21 @@
 	\begin{columns}[T]
 		\begin{column}{.5\textwidth}
 			\begin{block}{}
-				"The effective use of intuition has even been seen as critical in differentiating successful top executives and board members from lower-level managers and dysfunctional boards \parencite{intuition}."
+				\textit{"The effective use of intuition has even been seen as critical in differentiating successful top executives and board members from lower-level managers and dysfunctional boards"} \parencite{intuition}.
 			\end{block}
 		\end{column}
 		\begin{column}{.5\textwidth}
 			\begin{figure}
 				\includegraphics[width=\linewidth,height=0.7\textheight,keepaspectratio]{images/climber.jpg}
-				\caption{For a climber intuition is a necessity}
 				\credit{https://d36tnp772eyphs.cloudfront.net/blogs/1/2014/08/Smith-Rock-940x595.jpg}
 			\end{figure}
 		\end{column}
 	\end{columns}
 \end{frame}
-\begin{frame}{Intuitive tools cost less time in the long run}
+\begin{frame}{Intuitive tools cost less!}
 	\begin{columns}[T]
 		\begin{column}{.5\textwidth}
-			\begin{itemize}
-				\item Tools that employees use repeatedly
-					\begin{itemize}
-							\item Organisational structures
-							\item Processes
-							\item User guides
-							\item Websites
-							\item Computer programs [off the shelf and in-house]
-							\item Data
-							\item Machinery
-					\end{itemize}
+			\begin{itemize}[<+->]
 				\item Reduced training costs,  times
 				\item More effective training
 				\item Reduced tool usage times
@@ -249,7 +230,7 @@
 		\begin{column}{.5\textwidth}
 			\begin{figure}
 				\includegraphics[width=\linewidth,height=0.5\textheight,keepaspectratio]{images/iphone.jpg}
-				\caption{Intuitive designs are "understandable without the use of instructions" \parencite{design}}
+				\caption{Intuitive designs are \textit{"understandable without the use of instructions"} \parencite{design}}
 			\end{figure}
 		\end{column}
 	\end{columns}
@@ -265,39 +246,18 @@
 		\label{fig_lumped}
 	\end{figure}
 \end{frame}
-\begin{frame}{Rapidly changing environements}
-	\begin{columns}[T]
-		\begin{column}{.5\textwidth}
-			\begin{itemize}
-				\item The business environment is changing more rapidly than ever before
-				\item Intuition helps us focus on what is important, and to seize opportunities
-			\end{itemize}
-		\end{column}
-		\begin{column}{.5\textwidth}
+\begin{frame}{Rapidly changing environment}
 			\begin{figure}
 				\includegraphics[width=\linewidth,height=0.7\textheight,keepaspectratio]{images/exponential.png}
-				\caption{Exponential growth}
+				\caption{Exponential growth - Intuition helps us seize opportunities}
 				\credit{http://roadmap2retire.com/2016/06/disruptive-technologies-exponential-growth/}
 			\end{figure}
-		\end{column}
-	\end{columns}
 \end{frame}
 \begin{frame}{People are staying in the same job for less time!}
-	\begin{columns}[T]
-		\begin{column}{.5\textwidth}
-			\begin{itemize}
-				\item Job-hopping is on the rise
-				\item Less time to develop intuition
-				\item Potential loss of expertise
-			\end{itemize}
-		\end{column}
-		\begin{column}{.5\textwidth}
 			\begin{figure}
 				\includegraphics[width=\linewidth,height=0.7\textheight,keepaspectratio]{images/jobhop.png}
-				\caption{Job-hopping is on the rise \parencite{berger}}
+				\caption{\parencite{berger}}
 			\end{figure}
-		\end{column}
-	\end{columns}
 \end{frame}
 
 %=====================================================================
@@ -309,39 +269,45 @@
 \begin{frame}{Natural factors in developing intuition}
 	\begin{figure}
 		\includegraphics[width=\linewidth,height=0.6\textheight,keepaspectratio]{images/hourglass.jpg}
-		\caption{Intuition comes naturally with time, repetition and experience, but time is a finite resource}
+		\caption{Intuition comes naturally with time}
 		\credit{https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTNOtj0C1cEART16GSmhoPrnpYlWfK2rY6sPyUrgJBBv6v1KNb2ag}
-		\label{fig_time}
 	\end{figure}
 \end{frame}
 \subsection{Promoting intuition in the workplace}
-\begin{frame}{Hold on to our employees - Retention rates}
-	\begin{columns}[T]
-		\begin{column}{.5\textwidth}
-			\begin{itemize}
-				\item Show an appreciation
-				\item Provide exposure to a lot of opportunities
-				\item Offer training and development
-				\item Encourage job changes between related disciplines
-				\item ... this topic is worth a presentation on its own right
-			\end{itemize}
-		\end{column}
-		\begin{column}{.5\textwidth}
-			\begin{figure}
-				\includegraphics[width=\linewidth,height=0.5\textheight,keepaspectratio]{images/lovemyjob.jpg}
-				\caption{A good salary isn't enough to keep good employees.}
-				\credit{https://t4.ftcdn.net/jpg/00/68/46/57/240_F_68465752_GLciUylvckK6mZFwwR95XGTETACcgCOm.jpg}
-			\end{figure}
-		\end{column}
-	\end{columns}
-\end{frame}
+%\begin{frame}{Hold on to our employees}
+%	\begin{columns}[T]
+%		\begin{column}{.5\textwidth}
+%			\begin{itemize}[<+->]
+%				\item Show an appreciation
+%				\item Provide exposure to a lot of opportunities
+%				\item Offer training and development
+%				\item Encourage job changes between related disciplines
+%			\end{itemize}
+%		\end{column}
+%		\begin{column}{.5\textwidth}
+%			\begin{figure}
+%				\includegraphics[width=\linewidth,height=0.5\textheight,keepaspectratio]{images/lovemyjob.jpg}
+%				\caption{A good salary isn't enough to keep good employees.}
+%				\credit{https://t4.ftcdn.net/jpg/00/68/46/57/240_F_68465752_GLciUylvckK6mZFwwR95XGTETACcgCOm.jpg}
+%			\end{figure}
+%		\end{column}
+%	\end{columns}
+%\end{frame}
 \begin{frame}{Invest in intuitive tools}
 	\begin{columns}[T]
 		\begin{column}{.5\textwidth}
-			\begin{itemize}
-				\item Invest upfront in developing really good, intuitive User Interfaces [UI]				\item This would require training people to create good UIs
-				\item People are generally bad at designing tools for themselves or their teams!
-				\item \textbf{The lifecycle costs of using those tools will be much less as a result}
+			\begin{itemize}[<+->]
+				\item Invest upfront in training employees to create really good User Interfaces
+				\begin{itemize}[]
+					\item Organisational structures
+					\item Processes
+					\item User guides
+					\item Websites
+					\item Computer programs [off the shelf and in-house]
+					\item Data
+					\item Machinery
+				\end{itemize}
+				\item \textbf{Reduced lifecycle costs!}
 			\end{itemize}
 		\end{column}
 		\begin{column}{.5\textwidth}
@@ -353,70 +319,58 @@
 		\end{column}
 	\end{columns}
 \end{frame}
-\begin{frame}{Explicit training - Active}
+\begin{frame}{Explicit training}
 	\begin{columns}[T]
 		\begin{column}{.5\textwidth}
-			\begin{itemize}
-				\item Analogy
+			\begin{itemize}[<+->]
 				\item Online lectures
+				\item Analogy
 				\item Static images
 				\item Animations
 				\item Interactive animations
-				\item Augmented reality
-				\item Virtual reality
+				\item Augmented/virtual reality
 			\end{itemize}
 		\end{column}
 		\begin{column}{.5\textwidth}
 			\begin{figure}
-				\includegraphics<1>[width=\linewidth,height=0.5\textheight,keepaspectratio]{images/massSpring.png}
-				\includegraphics<2>[width=\linewidth,height=0.5\textheight,keepaspectratio]{images/teaching.jpg}
-				\caption{
-					\only<1>{The famous mass-spring analogy}
-					\only<2>{Teaching style has a significant impact}}
-			\only<1>{\credit{https://ugc.futurelearn.com/uploads/images/9d/75/hero_9d756280-d14c-43ed-b035-aec3e4b4d4a7.png}}
-			\only<2>{\credit{http://c1.thejournal.ie/media/2013/06/maths-equation-one-million-dollars-390x285.jpg}}
+				\includegraphics[width=\linewidth,height=0.5\textheight,keepaspectratio]{images/teaching.jpg}
+				\credit{http://c1.thejournal.ie/media/2013/06/maths-equation-one-million-dollars-390x285.jpg}
 			\end{figure}
 		\end{column}
 	\end{columns}
 \end{frame}
-\begin{frame}{Implicit training - On the job, natural}
-	\begin{columns}[T]
-		\begin{column}{.5\textwidth}
-			\begin{itemize}
-				\item You can try, but you just can't replace an experienced person with  documentation
-				\item Mix experts and novices and encourage collaboration
-				\item Repetition
-				\item Encourage asking questions
-				\item Encourage asking for help
-				\item Provide feedback
-			\end{itemize}
-		\end{column}
-		\begin{column}{.5\textwidth}
+\begin{frame}{Implicit training}
+%			\begin{itemize}
+%				\item You can try, but you just can't replace an experienced person with  documentation
+%				\item Mix experts and novices and encourage collaboration
+%				\item Repetition
+%				\item Encourage asking questions
+%				\item Encourage asking for help
+%				\item Provide feedback
+%			\end{itemize}
 			\begin{figure}
-				\includegraphics<1,2>[width=\linewidth,height=0.5\textheight,keepaspectratio]{images/expertsandnovices.jpg}
-				\includegraphics<3>[width=\linewidth,height=0.5\textheight,keepaspectratio]{images/repetition.jpg}
-				\caption{
-					\only<1,2>{Experts and novices can learn from each other}
-				    \only<3>{Repetition}}
-			    \only<1,2>{\credit{http://www.gannett-cdn.com/-mm-/6c97cde1d27e994806d61fc6f7a2d6724ac53087/c=0-139-4331-2573&r=x1803&c=3200x1800/local/-/media/USATODAY/USATODAY/2014/08/22/1408736863000-boss.jpg}}
-			    \only<3>{\credit{http://learnenglishteens.britishcouncil.org/sites/teens/files/field/image/istock_000016212764small1.jpg}}
+				\includegraphics[width=\linewidth,height=0.7\textheight,keepaspectratio]{images/expertsandnovices.jpg}
+				\caption{Boost collaboration}
+			    \credit{http://www.gannett-cdn.com/-mm-/6c97cde1d27e994806d61fc6f7a2d6724ac53087/c=0-139-4331-2573&r=x1803&c=3200x1800/local/-/media/USATODAY/USATODAY/2014/08/22/1408736863000-boss.jpg}
 			\end{figure}
-		\end{column}
-	\end{columns}
 \end{frame}
 
 %=====================================================================
 \section{Conclusion}
-\begin{frame}
-\begin{block}{Albert Einstein}
-	“The intuitive mind is a sacred gift and the rational mind is a faithful servant.We have created a society that honors the servant and has forgotten the gift.”
-\end{block}
-\begin{itemize}
-	\item{Intuition is \textbf{important}}
-	\item{Intuition is particularly relevant \textbf{today}}
-	\item{We can \textbf{promote} intuition. We just need to make the effort!}
-	\item{The future is looking good! I am excited! Aren't you?}
-\end{itemize}
+\begin{frame}{Conclusion}
+\begin{figure}
+		\includegraphics[width=\linewidth,height=0.6\textheight,keepaspectratio]{images/einstein.jpg}
+		\credit{https://klientboost.com/wp-content/uploads/2013/05/XAAM003.jpg}
+		\caption{\textit{“The intuitive mind is a sacred gift and the rational mind is a faithful servant.We have created a society that honors the servant and has forgotten the gift.”}}
+\end{figure}
+\end{frame}
+\begin{frame}{Conclusion}
+	\begin{itemize}[<+->]
+		\item{Intuition is \textbf{important}}
+		\item{Intuition is particularly relevant \textbf{today}}
+		\item{We can \textbf{promote} intuition. We just need to make the effort!}
+		\item{The future is looking good! I am excited! Aren't you?}
+	\end{itemize}
 \end{frame}
 \begin{frame}[allowframebreaks]
 	\frametitle{References}

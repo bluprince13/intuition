@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.11)  3 MAR 2017 06:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.11)  3 MAR 2017 13:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -706,6 +706,26 @@ Package: beamerinnerthemedefault 2014/06/30  (rcs-revision 580088513a67)
 emedefault.sty
 Package: beamerouterthemedefault 2012/12/19  (rcs-revision 1686da3db3c9)
 )))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen188
+\captionmargin@=\dimen189
+\captionwidth=\dimen190
+\caption@tempdima=\dimen191
+\caption@indent=\dimen192
+\caption@parindent=\dimen193
+\caption@hangindent=\dimen194
+)
+\c@ContinuedFloat=\count153
+Package caption Info: beamer document class.
+Package caption Info: hyperref package is loaded.
+Package caption Info: Hyperref support is turned off
+(caption)             because hyperref has stopped early.
+)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/themes/theme/beamerthemeWa
 rsaw.sty
 Package: beamerthemeWarsaw 2010/06/17  (rcs-revision d02a7cf4d8ae)
@@ -733,11 +753,11 @@ Package: beamercolorthemewhale 2010/06/17  (rcs-revision d02a7cf4d8ae)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2016/05/14 v2.6a Micro-typographical refinements (RS)
 \MT@toks=\toks43
-\MT@count=\count153
+\MT@count=\count154
 LaTeX Info: Redefining \textls on input line 774.
-\MT@outer@kern=\dimen188
+\MT@outer@kern=\dimen195
 LaTeX Info: Redefining \textmicrotypecontext on input line 1310.
-\MT@listname@count=\count154
+\MT@listname@count=\count155
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2016/05/14 v2.6a Definitions specific to pdftex (RS)
@@ -1118,14 +1138,14 @@ Package: csquotes 2016/07/14 v5.1h context-sensitive quotations (JAW)
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count155
+\etb@tempcnta=\count156
 )
-\csq@reset=\count156
-\csq@gtype=\count157
-\csq@glevel=\count158
-\csq@qlevel=\count159
-\csq@maxlvl=\count160
-\csq@tshold=\count161
+\csq@reset=\count157
+\csq@gtype=\count158
+\csq@glevel=\count159
+\csq@qlevel=\count160
+\csq@maxlvl=\count161
+\csq@tshold=\count162
 \csq@ltx@everypar=\toks46
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/csquotes/csquotes.def
@@ -1145,8 +1165,8 @@ Language: english 2012/08/20 v3.3p English support from the babel system
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2016/04/23 3.9r Babel common definitions
-\babel@savecnt=\count162
-\U@D=\dimen189
+\babel@savecnt=\count163
+\U@D=\dimen196
 LaTeX Info: Redefining \textlatin on input line 1448.
 )
 \l@canadian = a dialect from \language\l@american 
@@ -1158,7 +1178,7 @@ Package: biblatex 2016/09/17 v3.6 programmable bibliographies (PK/JW/AB)
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count163
+\lrq@indent=\count164
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -1169,49 +1189,49 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/xstring/xstring.sty
 (/usr/local/texlive/2016/texmf-dist/tex/generic/xstring/xstring.tex
 \@xs@message=\write5
-\integerpart=\count164
-\decimalpart=\count165
+\integerpart=\count165
+\decimalpart=\count166
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
-\c@tabx@nest=\count166
-\c@listtotal=\count167
-\c@listcount=\count168
-\c@liststart=\count169
-\c@liststop=\count170
-\c@citecount=\count171
-\c@citetotal=\count172
-\c@multicitecount=\count173
-\c@multicitetotal=\count174
-\c@instcount=\count175
-\c@maxnames=\count176
-\c@minnames=\count177
-\c@maxitems=\count178
-\c@minitems=\count179
-\c@citecounter=\count180
-\c@savedcitecounter=\count181
-\c@uniquelist=\count182
-\c@uniquename=\count183
-\c@refsection=\count184
-\c@refsegment=\count185
-\c@maxextratitle=\count186
-\c@maxextratitleyear=\count187
-\c@maxextrayear=\count188
-\c@maxextraalpha=\count189
-\c@abbrvpenalty=\count190
-\c@highnamepenalty=\count191
-\c@lownamepenalty=\count192
-\c@maxparens=\count193
-\c@parenlevel=\count194
-\blx@tempcnta=\count195
-\blx@tempcntb=\count196
-\blx@tempcntc=\count197
-\blx@maxsection=\count198
-\blx@maxsegment@0=\count199
-\blx@notetype=\count266
-\blx@parenlevel@text=\count267
-\blx@parenlevel@foot=\count268
-\blx@sectionciteorder@0=\count269
+\c@tabx@nest=\count167
+\c@listtotal=\count168
+\c@listcount=\count169
+\c@liststart=\count170
+\c@liststop=\count171
+\c@citecount=\count172
+\c@citetotal=\count173
+\c@multicitecount=\count174
+\c@multicitetotal=\count175
+\c@instcount=\count176
+\c@maxnames=\count177
+\c@minnames=\count178
+\c@maxitems=\count179
+\c@minitems=\count180
+\c@citecounter=\count181
+\c@savedcitecounter=\count182
+\c@uniquelist=\count183
+\c@uniquename=\count184
+\c@refsection=\count185
+\c@refsegment=\count186
+\c@maxextratitle=\count187
+\c@maxextratitleyear=\count188
+\c@maxextrayear=\count189
+\c@maxextraalpha=\count190
+\c@abbrvpenalty=\count191
+\c@highnamepenalty=\count192
+\c@lownamepenalty=\count193
+\c@maxparens=\count194
+\c@parenlevel=\count195
+\blx@tempcnta=\count196
+\blx@tempcntb=\count197
+\blx@tempcntc=\count198
+\blx@maxsection=\count199
+\blx@maxsegment@0=\count266
+\blx@notetype=\count267
+\blx@parenlevel@text=\count268
+\blx@parenlevel@foot=\count269
+\blx@sectionciteorder@0=\count270
 \labelnumberwidth=\skip58
 \labelalphawidth=\skip59
 \biblabelsep=\skip60
@@ -1222,9 +1242,9 @@ Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 \bibhang=\skip65
 \blx@bcfin=\read2
 \blx@bcfout=\write6
-\c@mincomprange=\count270
-\c@maxcomprange=\count271
-\c@mincompwidth=\count272
+\c@mincomprange=\count271
+\c@maxcomprange=\count272
+\c@mincompwidth=\count273
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -1233,72 +1253,72 @@ Package biblatex Info: Trying to load biblatex citestyle data model...
 Package biblatex Info: ... file 'authoryear.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count273
-\c@savedafterword=\count274
-\c@annotator=\count275
-\c@savedannotator=\count276
-\c@author=\count277
-\c@savedauthor=\count278
-\c@bookauthor=\count279
-\c@savedbookauthor=\count280
-\c@commentator=\count281
-\c@savedcommentator=\count282
-\c@editor=\count283
-\c@savededitor=\count284
-\c@editora=\count285
-\c@savededitora=\count286
-\c@editorb=\count287
-\c@savededitorb=\count288
-\c@editorc=\count289
-\c@savededitorc=\count290
-\c@foreword=\count291
-\c@savedforeword=\count292
-\c@holder=\count293
-\c@savedholder=\count294
-\c@introduction=\count295
-\c@savedintroduction=\count296
-\c@namea=\count297
-\c@savednamea=\count298
-\c@nameb=\count299
-\c@savednameb=\count300
-\c@namec=\count301
-\c@savednamec=\count302
-\c@translator=\count303
-\c@savedtranslator=\count304
-\c@shortauthor=\count305
-\c@savedshortauthor=\count306
-\c@shorteditor=\count307
-\c@savedshorteditor=\count308
-\c@labelname=\count309
-\c@savedlabelname=\count310
-\c@institution=\count311
-\c@savedinstitution=\count312
-\c@lista=\count313
-\c@savedlista=\count314
-\c@listb=\count315
-\c@savedlistb=\count316
-\c@listc=\count317
-\c@savedlistc=\count318
-\c@listd=\count319
-\c@savedlistd=\count320
-\c@liste=\count321
-\c@savedliste=\count322
-\c@listf=\count323
-\c@savedlistf=\count324
-\c@location=\count325
-\c@savedlocation=\count326
-\c@organization=\count327
-\c@savedorganization=\count328
-\c@origlocation=\count329
-\c@savedoriglocation=\count330
-\c@origpublisher=\count331
-\c@savedorigpublisher=\count332
-\c@publisher=\count333
-\c@savedpublisher=\count334
-\c@language=\count335
-\c@savedlanguage=\count336
-\c@pageref=\count337
-\c@savedpageref=\count338
+\c@afterword=\count274
+\c@savedafterword=\count275
+\c@annotator=\count276
+\c@savedannotator=\count277
+\c@author=\count278
+\c@savedauthor=\count279
+\c@bookauthor=\count280
+\c@savedbookauthor=\count281
+\c@commentator=\count282
+\c@savedcommentator=\count283
+\c@editor=\count284
+\c@savededitor=\count285
+\c@editora=\count286
+\c@savededitora=\count287
+\c@editorb=\count288
+\c@savededitorb=\count289
+\c@editorc=\count290
+\c@savededitorc=\count291
+\c@foreword=\count292
+\c@savedforeword=\count293
+\c@holder=\count294
+\c@savedholder=\count295
+\c@introduction=\count296
+\c@savedintroduction=\count297
+\c@namea=\count298
+\c@savednamea=\count299
+\c@nameb=\count300
+\c@savednameb=\count301
+\c@namec=\count302
+\c@savednamec=\count303
+\c@translator=\count304
+\c@savedtranslator=\count305
+\c@shortauthor=\count306
+\c@savedshortauthor=\count307
+\c@shorteditor=\count308
+\c@savedshorteditor=\count309
+\c@labelname=\count310
+\c@savedlabelname=\count311
+\c@institution=\count312
+\c@savedinstitution=\count313
+\c@lista=\count314
+\c@savedlista=\count315
+\c@listb=\count316
+\c@savedlistb=\count317
+\c@listc=\count318
+\c@savedlistc=\count319
+\c@listd=\count320
+\c@savedlistd=\count321
+\c@liste=\count322
+\c@savedliste=\count323
+\c@listf=\count324
+\c@savedlistf=\count325
+\c@location=\count326
+\c@savedlocation=\count327
+\c@organization=\count328
+\c@savedorganization=\count329
+\c@origlocation=\count330
+\c@savedoriglocation=\count331
+\c@origpublisher=\count332
+\c@savedorigpublisher=\count333
+\c@publisher=\count334
+\c@savedpublisher=\count335
+\c@language=\count336
+\c@savedlanguage=\count337
+\c@pageref=\count338
+\c@savedpageref=\count339
 \shorthandwidth=\skip66
 \shortjournalwidth=\skip67
 \shortserieswidth=\skip68
@@ -1316,13 +1336,13 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2016/09/17 v3.6 biblatex compatibility (PK/JW/AB)
-\c@textcitecount=\count339
-\c@textcitetotal=\count340
-\c@textcitemaxnames=\count341
-\c@biburlnumpenalty=\count342
-\c@biburlucpenalty=\count343
-\c@biburllcpenalty=\count344
-\c@smartand=\count345
+\c@textcitecount=\count340
+\c@textcitetotal=\count341
+\c@textcitemaxnames=\count342
+\c@biburlnumpenalty=\count343
+\c@biburlucpenalty=\count344
+\c@biburllcpenalty=\count345
+\c@smartand=\count346
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -1334,8 +1354,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2016/09/17 v3.6 biblatex bibliography style (PK/JW/AB)
-\c@bbx:relatedcount=\count346
-\c@bbx:relatedtotal=\count347
+\c@bbx:relatedcount=\count347
+\c@bbx:relatedtotal=\count348
 ))
 Package biblatex Info: Trying to load citation style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.cbx' found.
@@ -1376,21 +1396,21 @@ Package biblatex Warning: Patching footnotes failed.
 (./document.aux)
 \openout1 = `document.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 100.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 105.
 
  (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1431,16 +1451,16 @@ File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count348
-\scratchdimen=\dimen190
+\scratchcounter=\count349
+\scratchdimen=\dimen197
 \scratchbox=\box53
-\nofMPsegments=\count349
-\nofMParguments=\count350
+\nofMPsegments=\count350
+\nofMParguments=\count351
 \everyMPshowfont=\toks47
-\MPscratchCnt=\count351
-\MPscratchDim=\dimen191
-\MPnumerator=\count352
-\makeMPintoPDFobject=\count353
+\MPscratchCnt=\count352
+\MPscratchDim=\dimen198
+\MPnumerator=\count353
+\makeMPintoPDFobject=\count354
 \everyMPtoPDFconversion=\toks48
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1461,7 +1481,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box54
-Package hyperref Info: Link coloring OFF on input line 100.
+Package hyperref Info: Link coloring OFF on input line 105.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1469,62 +1489,62 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count354
+\c@section@level=\count355
 )
-LaTeX Info: Redefining \ref on input line 100.
-LaTeX Info: Redefining \pageref on input line 100.
-LaTeX Info: Redefining \nameref on input line 100.
+LaTeX Info: Redefining \ref on input line 105.
+LaTeX Info: Redefining \pageref on input line 105.
+LaTeX Info: Redefining \nameref on input line 105.
 
 (./document.out) (./document.out)
 \@outlinefile=\write7
 \openout7 = `document.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 100.
+(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 105.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> OT1/cmss/bx/n on input line 100.
+(Font)                  OT1/lmr/bx/n --> OT1/cmss/bx/n on input line 105.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 100.
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 105.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 100.
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 105.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmss/m/n --> T1/lmr/m/n on input line 100.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 100.
+(Font)                  OT1/lmss/m/n --> T1/lmr/m/n on input line 105.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 105.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> T1/lmss/bx/n on input line 100.
+(Font)                  OT1/lmr/bx/n --> T1/lmss/bx/n on input line 105.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/lmr/bx/n --> T1/lmss/bx/n on input line 100.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 100.
+(Font)                  OT1/lmr/bx/n --> T1/lmss/bx/n on input line 105.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 105.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> T1/lmss/m/n on input line 100.
+(Font)                  OT1/lmss/m/n --> T1/lmss/m/n on input line 105.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> T1/lmss/m/n on input line 100.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 100.
+(Font)                  OT1/lmss/bx/n --> T1/lmss/m/n on input line 105.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 105.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> T1/lmss/m/it on input line 100.
+(Font)                  OT1/lmr/m/it --> T1/lmss/m/it on input line 105.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/lmr/bx/it --> T1/lmss/m/it on input line 100.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 100.
+(Font)                  OT1/lmr/bx/it --> T1/lmss/m/it on input line 105.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 105.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 100.
+(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 105.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 100.
+(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 105.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/lmss/m/n --> T1/lmss/bx/n on input line 100.
+(Font)                  T1/lmss/m/n --> T1/lmss/bx/n on input line 105.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/lmss/m/it --> T1/lmss/bx/it on input line 100.
+(Font)                  T1/lmss/m/it --> T1/lmss/bx/it on input line 105.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/lmss/bx/n --> T1/lmr/bx/n on input line 100.
+(Font)                  OT1/lmss/bx/n --> T1/lmr/bx/n on input line 105.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/lmss/bx/n --> T1/lmss/bx/n on input line 100.
+(Font)                  T1/lmss/bx/n --> T1/lmss/bx/n on input line 105.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/lmss/m/n --> T1/lmss/bx/n on input line 100.
+(Font)                  T1/lmss/m/n --> T1/lmss/bx/n on input line 105.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/lmss/m/it --> T1/lmss/bx/it on input line 100.
+(Font)                  T1/lmss/m/it --> T1/lmss/bx/it on input line 105.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/lmtt/m/n --> T1/lmtt/bx/n on input line 100.
+(Font)                  T1/lmtt/m/n --> T1/lmtt/bx/n on input line 105.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/beamer/translator/dicts/translato
 r-basic-dictionary/translator-basic-dictionary-English.dict
@@ -1550,8 +1570,10 @@ Dictionary: translator-numbers-dictionary, Language: English
 r-theorem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 100.
-LaTeX Info: Redefining \microtypecontext on input line 100.
+LaTeX Info: Redefining \includegraphics on input line 105.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Info: Redefining \microtypecontext on input line 105.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1574,245 +1596,296 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'document.bbl' found.
 
 (./document.bbl)
-Package biblatex Info: Reference section=0 on input line 100.
-Package biblatex Info: Reference segment=0 on input line 100.
+Package biblatex Info: Reference section=0 on input line 105.
+Package biblatex Info: Reference segment=0 on input line 105.
  (./document.nav) [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/
 pdftex.map}
 
 ] (./document.toc) [2
 
 ]
-<images/programmer.jpg, id=109, 501.875pt x 359.3425pt>
-File: images/programmer.jpg Graphic file (type jpg)
-
-<use images/programmer.jpg>
-Package pdftex.def Info: images/programmer.jpg used on input line 126.
-(pdftex.def)             Requested size: 153.64217pt x 110.00778pt.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 126.
- [3
-
- <./images/programmer.jpg>]
-File: images/programmer.jpg Graphic file (type jpg)
-
-<use images/programmer.jpg>
-Package pdftex.def Info: images/programmer.jpg used on input line 126.
-(pdftex.def)             Requested size: 153.64217pt x 110.00778pt.
- [4
-
-]
-<images/myprofile.png, id=132, 742.775pt x 465.74pt>
-File: images/myprofile.png Graphic file (type png)
-
-<use images/myprofile.png>
-Package pdftex.def Info: images/myprofile.png used on input line 131.
-(pdftex.def)             Requested size: 253.20885pt x 158.76878pt.
- [5
-
- <./images/myprofile.png>]
-<images/drawing.jpg, id=143, 702.625pt x 468.75125pt>
+<images/drawing.jpg, id=105, 702.625pt x 468.75125pt>
 File: images/drawing.jpg Graphic file (type jpg)
  <use images/drawing.jpg>
-Package pdftex.def Info: images/drawing.jpg used on input line 141.
-(pdftex.def)             Requested size: 237.97803pt x 158.76534pt.
+Package pdftex.def Info: images/drawing.jpg used on input line 146.
+(pdftex.def)             Requested size: 248.12027pt x 165.53166pt.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 146.
 
-Overfull \vbox (2.68874pt too high) detected at line 141
- []
+[3
 
-[6
-
- <./images/drawing.jpg>] (./document.toc) [7
-
-] [8
+ <./images/drawing.jpg>] [4
 
 ]
-<images/driving.jpg, id=195, 722.7pt x 477.9456pt>
-File: images/driving.jpg Graphic file (type jpg)
- <use images/driving.jpg>
-Package pdftex.def Info: images/driving.jpg used on input line 159.
-(pdftex.def)             Requested size: 240.06866pt x 158.76541pt.
-
-Overfull \vbox (4.63324pt too high) detected at line 159
- []
-
-[9
-
- <./images/driving.jpg>]
-<images/proposal.jpg, id=211, 602.25pt x 401.5803pt>
+<images/proposal.jpg, id=129, 602.25pt x 401.5803pt>
 File: images/proposal.jpg Graphic file (type jpg)
  <use images/proposal.jpg>
-Package pdftex.def Info: images/proposal.jpg used on input line 166.
-(pdftex.def)             Requested size: 238.1021pt x 158.76648pt.
+Package pdftex.def Info: images/proposal.jpg used on input line 162.
+(pdftex.def)             Requested size: 248.24739pt x 165.53136pt.
 
-Overfull \vbox (2.68988pt too high) detected at line 166
- []
+[5
 
-[10
+ <./images/proposal.jpg>] <images/driving.jpg, id=143, 722.7pt x 477.9456pt>
+File: images/driving.jpg Graphic file (type jpg)
 
- <./images/proposal.jpg>] <images/thinker.png, id=226, 642.4pt x 642.4pt>
+<use images/driving.jpg>
+Package pdftex.def Info: images/driving.jpg used on input line 168.
+(pdftex.def)             Requested size: 250.30219pt x 165.53317pt.
+ [6
+
+ <./images/driving.jpg>]
+<images/thinker.png, id=157, 642.4pt x 642.4pt>
 File: images/thinker.png Graphic file (type png)
+ <use images/thinker.png>
+Package pdftex.def Info: images/thinker.png used on input line 177.
+(pdftex.def)             Requested size: 94.58163pt x 94.58163pt.
 
-<use images/thinker.png>
-Package pdftex.def Info: images/thinker.png used on input line 175.
-(pdftex.def)             Requested size: 90.71956pt x 90.71956pt.
- [11
+[7
 
- <./images/thinker.png>] (./document.toc) [12
-
-]
-<images/information.jpg, id=265, 1829.83624pt x 672.5125pt>
+ <./images/thinker.png>]
+<images/information.jpg, id=175, 1829.83624pt x 672.5125pt>
 File: images/information.jpg Graphic file (type jpg)
 
 <use images/information.jpg>
-Package pdftex.def Info: images/information.jpg used on input line 194.
-(pdftex.def)             Requested size: 153.62143pt x 56.45987pt.
- [13
+Package pdftex.def Info: images/information.jpg used on input line 187.
+(pdftex.def)             Requested size: 307.27078pt x 112.93001pt.
+ [8
 
  <./images/information.jpg>]
-<images/brain.png, id=284, 216.81pt x 148.3944pt>
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 205.
+
+<images/brain.png, id=192, 216.81pt x 148.3944pt>
 File: images/brain.png Graphic file (type png)
  <use images/brain.png>
-Package pdftex.def Info: images/brain.png used on input line 213.
+Package pdftex.def Info: images/brain.png used on input line 205.
 (pdftex.def)             Requested size: 153.65166pt x 105.16602pt.
 
-[14
+[9
 
- <./images/brain.png>] <images/climber.jpg, id=302, 702.625pt x 445.665pt>
+ <./images/brain.png>] <images/climber.jpg, id=210, 702.625pt x 445.665pt>
 File: images/climber.jpg Graphic file (type jpg)
 
 <use images/climber.jpg>
-Package pdftex.def Info: images/climber.jpg used on input line 229.
+Package pdftex.def Info: images/climber.jpg used on input line 220.
 (pdftex.def)             Requested size: 153.64523pt x 97.45497pt.
- [15
+ [10
 
  <./images/climber.jpg>]
-<images/iphone.jpg, id=319, 1003.75pt x 1003.75pt>
+<images/iphone.jpg, id=224, 1003.75pt x 1003.75pt>
 File: images/iphone.jpg Graphic file (type jpg)
  <use images/iphone.jpg>
-Package pdftex.def Info: images/iphone.jpg used on input line 256.
-(pdftex.def)             Requested size: 113.39944pt x 113.39944pt.
+Package pdftex.def Info: images/iphone.jpg used on input line 237.
+(pdftex.def)             Requested size: 118.2393pt x 118.2393pt.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 237.
 
-[16
+[11
 
- <./images/iphone.jpg>] (./document.toc) [17
+ <./images/iphone.jpg>]
+File: images/iphone.jpg Graphic file (type jpg)
+ <use images/iphone.jpg>
+Package pdftex.def Info: images/iphone.jpg used on input line 237.
+(pdftex.def)             Requested size: 118.2393pt x 118.2393pt.
+ [12
 
 ]
-<images/lumped.png, id=357, 540.51938pt x 858.70813pt>
+File: images/iphone.jpg Graphic file (type jpg)
+
+<use images/iphone.jpg>
+Package pdftex.def Info: images/iphone.jpg used on input line 237.
+(pdftex.def)             Requested size: 118.2393pt x 118.2393pt.
+ [13
+
+]
+<images/lumped.png, id=269, 540.51938pt x 858.70813pt>
 File: images/lumped.png Graphic file (type png)
  <use images/lumped.png>
-Package pdftex.def Info: images/lumped.png used on input line 267.
-(pdftex.def)             Requested size: 111.35977pt x 176.91418pt.
+Package pdftex.def Info: images/lumped.png used on input line 248.
+(pdftex.def)             Requested size: 116.10217pt x 184.4483pt.
 
-Overfull \vbox (16.33759pt too high) detected at line 267
+Overfull \vbox (10.10526pt too high) detected at line 248
  []
 
-[18
+[14
 
  <./images/lumped.png>]
-<images/exponential.png, id=375, 803.0pt x 397.485pt>
+<images/exponential.png, id=287, 803.0pt x 397.485pt>
 File: images/exponential.png Graphic file (type png)
 
 <use images/exponential.png>
-Package pdftex.def Info: images/exponential.png used on input line 284.
-(pdftex.def)             Requested size: 153.63757pt x 76.0506pt.
- [19
+Package pdftex.def Info: images/exponential.png used on input line 255.
+(pdftex.def)             Requested size: 307.29967pt x 152.11333pt.
+ [15
 
  <./images/exponential.png>]
-<images/jobhop.png, id=392, 803.0pt x 481.8pt>
+<images/jobhop.png, id=302, 803.0pt x 481.8pt>
 File: images/jobhop.png Graphic file (type png)
  <use images/jobhop.png>
-Package pdftex.def Info: images/jobhop.png used on input line 301.
-(pdftex.def)             Requested size: 153.63757pt x 92.18254pt.
- [20
+Package pdftex.def Info: images/jobhop.png used on input line 261.
+(pdftex.def)             Requested size: 275.88354pt x 165.53012pt.
+ [16
 
- <./images/jobhop.png (PNG copy)>] (./document.toc) [21
-
-]
-<images/hourglass.jpg, id=430, 115.632pt x 173.448pt>
+ <./images/jobhop.png (PNG copy)>]
+<images/hourglass.jpg, id=318, 115.632pt x 173.448pt>
 File: images/hourglass.jpg Graphic file (type jpg)
 
 <use images/hourglass.jpg>
-Package pdftex.def Info: images/hourglass.jpg used on input line 316.
-(pdftex.def)             Requested size: 90.73073pt x 136.0961pt.
- [22
+Package pdftex.def Info: images/hourglass.jpg used on input line 275.
+(pdftex.def)             Requested size: 94.5983pt x 141.89745pt.
+ [17
 
- <./images/hourglass.jpg>] (./document.toc)
-[23
-
-] <images/lovemyjob.jpg, id=465, 602.25pt x 344.28625pt>
-File: images/lovemyjob.jpg Graphic file (type jpg)
-
-<use images/lovemyjob.jpg>
-Package pdftex.def Info: images/lovemyjob.jpg used on input line 337.
-(pdftex.def)             Requested size: 153.64064pt x 87.83122pt.
- [24
-
- <./images/lovemyjob.jpg>]
-<images/ipodwheel.jpg, id=479, 991.705pt x 919.435pt>
+ <./images/hourglass.jpg>]
+<images/ipodwheel.jpg, id=332, 991.705pt x 919.435pt>
 File: images/ipodwheel.jpg Graphic file (type jpg)
 
 <use images/ipodwheel.jpg>
-Package pdftex.def Info: images/ipodwheel.jpg used on input line 355.
-(pdftex.def)             Requested size: 122.31342pt x 113.39987pt.
- [25
+Package pdftex.def Info: images/ipodwheel.jpg used on input line 321.
+(pdftex.def)             Requested size: 127.53401pt x 118.24004pt.
+ [18
 
  <./images/ipodwheel.jpg>]
-<images/massSpring.png, id=495, 391.77948pt x 646.24594pt>
-File: images/massSpring.png Graphic file (type png)
+File: images/ipodwheel.jpg Graphic file (type jpg)
 
-<use images/massSpring.png>
-Package pdftex.def Info: images/massSpring.png used on input line 381.
-(pdftex.def)             Requested size: 68.74774pt x 113.40042pt.
+<use images/ipodwheel.jpg>
+Package pdftex.def Info: images/ipodwheel.jpg used on input line 321.
+(pdftex.def)             Requested size: 127.53401pt x 118.24004pt.
+ [19
+
+]
+File: images/ipodwheel.jpg Graphic file (type jpg)
+ <use images/ipodwheel.jpg>
+Package pdftex.def Info: images/ipodwheel.jpg used on input line 321.
+(pdftex.def)             Requested size: 127.53401pt x 118.24004pt.
+ [20
+
+]
+File: images/ipodwheel.jpg Graphic file (type jpg)
+
+<use images/ipodwheel.jpg>
+Package pdftex.def Info: images/ipodwheel.jpg used on input line 321.
+(pdftex.def)             Requested size: 127.53401pt x 118.24004pt.
+ [21
+
+]
+File: images/ipodwheel.jpg Graphic file (type jpg)
+ <use images/ipodwheel.jpg>
+Package pdftex.def Info: images/ipodwheel.jpg used on input line 321.
+(pdftex.def)             Requested size: 127.53401pt x 118.24004pt.
+ [22
+
+]
+File: images/ipodwheel.jpg Graphic file (type jpg)
+
+<use images/ipodwheel.jpg>
+Package pdftex.def Info: images/ipodwheel.jpg used on input line 321.
+(pdftex.def)             Requested size: 127.53401pt x 118.24004pt.
+ [23
+
+]
+File: images/ipodwheel.jpg Graphic file (type jpg)
+ <use images/ipodwheel.jpg>
+Package pdftex.def Info: images/ipodwheel.jpg used on input line 321.
+(pdftex.def)             Requested size: 127.53401pt x 118.24004pt.
+ [24
+
+]
+File: images/ipodwheel.jpg Graphic file (type jpg)
+
+<use images/ipodwheel.jpg>
+Package pdftex.def Info: images/ipodwheel.jpg used on input line 321.
+(pdftex.def)             Requested size: 127.53401pt x 118.24004pt.
+ [25
+
+]
+File: images/ipodwheel.jpg Graphic file (type jpg)
+ <use images/ipodwheel.jpg>
+Package pdftex.def Info: images/ipodwheel.jpg used on input line 321.
+(pdftex.def)             Requested size: 127.53401pt x 118.24004pt.
  [26
 
- <./images/massSpring.png>]
-<images/teaching.jpg, id=511, 379.4175pt x 250.9375pt>
+]
+<images/teaching.jpg, id=444, 379.4175pt x 250.9375pt>
 File: images/teaching.jpg Graphic file (type jpg)
 
 <use images/teaching.jpg>
-Package pdftex.def Info: images/teaching.jpg used on input line 381.
+Package pdftex.def Info: images/teaching.jpg used on input line 341.
 (pdftex.def)             Requested size: 153.64587pt x 101.61763pt.
  [27
 
  <./images/teaching.jpg>]
-<images/expertsandnovices.jpg, id=525, 3212.0pt x 1806.75pt>
-File: images/expertsandnovices.jpg Graphic file (type jpg)
+File: images/teaching.jpg Graphic file (type jpg)
 
-<use images/expertsandnovices.jpg>
-Package pdftex.def Info: images/expertsandnovices.jpg used on input line 406.
-(pdftex.def)             Requested size: 153.60081pt x 86.40045pt.
+<use images/teaching.jpg>
+Package pdftex.def Info: images/teaching.jpg used on input line 341.
+(pdftex.def)             Requested size: 153.64587pt x 101.61763pt.
  [28
 
- <./images/expertsandnovices.jpg>]
-File: images/expertsandnovices.jpg Graphic file (type jpg)
-
-<use images/expertsandnovices.jpg>
-Package pdftex.def Info: images/expertsandnovices.jpg used on input line 406.
-(pdftex.def)             Requested size: 153.60081pt x 86.40045pt.
+]
+File: images/teaching.jpg Graphic file (type jpg)
+ <use images/teaching.jpg>
+Package pdftex.def Info: images/teaching.jpg used on input line 341.
+(pdftex.def)             Requested size: 153.64587pt x 101.61763pt.
  [29
 
 ]
-<images/repetition.jpg, id=552, 409.7709pt x 271.9761pt>
-File: images/repetition.jpg Graphic file (type jpg)
+File: images/teaching.jpg Graphic file (type jpg)
 
-<use images/repetition.jpg>
-Package pdftex.def Info: images/repetition.jpg used on input line 406.
-(pdftex.def)             Requested size: 153.64494pt x 101.97832pt.
+<use images/teaching.jpg>
+Package pdftex.def Info: images/teaching.jpg used on input line 341.
+(pdftex.def)             Requested size: 153.64587pt x 101.61763pt.
  [30
 
- <./images/repetition.jpg>] [31
+]
+File: images/teaching.jpg Graphic file (type jpg)
+ <use images/teaching.jpg>
+Package pdftex.def Info: images/teaching.jpg used on input line 341.
+(pdftex.def)             Requested size: 153.64587pt x 101.61763pt.
+ [31
 
 ]
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 424.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 424.
+File: images/teaching.jpg Graphic file (type jpg)
+
+<use images/teaching.jpg>
+Package pdftex.def Info: images/teaching.jpg used on input line 341.
+(pdftex.def)             Requested size: 153.64587pt x 101.61763pt.
+ [32
+
+]
+<images/expertsandnovices.jpg, id=519, 3212.0pt x 1806.75pt>
+File: images/expertsandnovices.jpg Graphic file (type jpg)
+
+<use images/expertsandnovices.jpg>
+Package pdftex.def Info: images/expertsandnovices.jpg used on input line 356.
+(pdftex.def)             Requested size: 294.26271pt x 165.52277pt.
+ [33
+
+ <./images/expertsandnovices.jpg>]
+<images/einstein.jpg, id=532, 1204.5pt x 1204.5pt>
+File: images/einstein.jpg Graphic file (type jpg)
+ <use images/einstein.jpg>
+Package pdftex.def Info: images/einstein.jpg used on input line 366.
+(pdftex.def)             Requested size: 141.88716pt x 141.88716pt.
+
+[34
+
+ <./images/einstein.jpg>] [35
+
+] [36
+
+] [37
+
+] [38
+
+]
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 378.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 
 LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <10.95> not available
-(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 424.
+(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 378.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
@@ -1821,7 +1894,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 424.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 378.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/t1lmtt.fd
@@ -1831,7 +1904,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for OT1+lmss on input line 424
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 378
 .
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ot1lmss.fd
@@ -1841,31 +1914,31 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `lmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 424.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 378.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 424
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 378
 .
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 424
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 378
 .
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 424.
+(Font)              <10.95> on input line 378.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 424.
+(Font)              <8> on input line 378.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 424.
-LaTeX Font Info:    Try loading font information for U+msa on input line 424.
+(Font)              <6> on input line 378.
+LaTeX Font Info:    Try loading font information for U+msa on input line 378.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1873,7 +1946,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 424.
+LaTeX Font Info:    Try loading font information for U+msb on input line 378.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1882,12 +1955,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 424.
- [32
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 378.
+ [39
 
  </usr/local/texlive/2016/texmf-dist/tex/latex/beamer/art/beamericonarticle.pdf
 >]
-[33
+[40
 
 
 ]
@@ -1900,26 +1973,26 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
 \tf@snm=\write10
 \openout10 = `document.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 425.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 425.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 379.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 379.
  (./document.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 425.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 425.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 379.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 379.
 Package rerunfilecheck Info: File `document.out' has not changed.
-(rerunfilecheck)             Checksum: FD9A32CB6459FCA68AFF6D196AA8F580;649.
+(rerunfilecheck)             Checksum: 0C3D19679ABFA6578AC642ED83CF9BB5;648.
 Package logreq Info: Writing requests to 'document.run.xml'.
 \openout1 = `document.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 425.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 379.
  ) 
 Here is how much of TeX's memory you used:
- 27933 strings out of 493013
- 530510 string characters out of 6133342
- 998329 words of memory out of 5000000
- 30769 multiletter control sequences out of 15000+600000
- 49226 words of font info for 61 fonts, out of 8000000 for 9000
+ 28885 strings out of 493013
+ 547519 string characters out of 6133342
+ 1012060 words of memory out of 5000000
+ 31721 multiletter control sequences out of 15000+600000
+ 51934 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,19n,68p,961b,2038s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,19n,68p,961b,2047s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/
 texlive/2016/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2
 016/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2016/texmf-
@@ -1928,10 +2001,10 @@ dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2016/texmf-dist/fonts
 ic/lm/lmssbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lm
 sso10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsso8.pfb>
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on document.pdf (33 pages, 5484674 bytes).
+Output written on document.pdf (40 pages, 3606553 bytes).
 PDF statistics:
- 659 PDF objects out of 1000 (max. 8388607)
- 559 compressed objects within 6 object streams
- 84 named destinations out of 1000 (max. 500000)
- 15635 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 664 PDF objects out of 1000 (max. 8388607)
+ 560 compressed objects within 6 object streams
+ 96 named destinations out of 1000 (max. 500000)
+ 17657 words of extra memory for PDF output out of 20736 (max. 10000000)
 

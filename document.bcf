@@ -2143,13 +2143,19 @@
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1">gert</bcf:citekey>
-    <bcf:citekey order="2">intuition</bcf:citekey>
+    <bcf:citekey order="2">gert</bcf:citekey>
     <bcf:citekey order="3">intuition</bcf:citekey>
-    <bcf:citekey order="4">design</bcf:citekey>
+    <bcf:citekey order="4">intuition</bcf:citekey>
     <bcf:citekey order="5">design</bcf:citekey>
-    <bcf:citekey order="6">lumped</bcf:citekey>
-    <bcf:citekey order="7">berger</bcf:citekey>
-    <bcf:citekey order="8">berger</bcf:citekey>
+    <bcf:citekey order="6">design</bcf:citekey>
+    <bcf:citekey order="7">design</bcf:citekey>
+    <bcf:citekey order="8">design</bcf:citekey>
+    <bcf:citekey order="9">design</bcf:citekey>
+    <bcf:citekey order="10">design</bcf:citekey>
+    <bcf:citekey order="11">lumped</bcf:citekey>
+    <bcf:citekey order="12">lumped</bcf:citekey>
+    <bcf:citekey order="13">berger</bcf:citekey>
+    <bcf:citekey order="14">berger</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="nty/global/" type="entry" sortscheme="nty" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>
